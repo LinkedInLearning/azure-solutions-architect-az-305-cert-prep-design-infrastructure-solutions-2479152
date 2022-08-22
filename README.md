@@ -1,20 +1,32 @@
-## Chapter 3 - Design migrations
+## Chapter 4 - Design network solutions
 
-### Reference documentation links 
+### Reference documentation links
 <br/>
 
-- [Azure migration guide overview](https://docs.microsoft.com/azure/cloud-adoption-framework/migrate/azure-migration-guide/?azure-portal=true&tabs=MigrationTools&WT.mc_id=AZ-MVP-5004750)
-- [The One Migrate approach to migrating the IT portfolio](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/?azure-portal=true&WT.mc_id=AZ-MVP-5004750)
-- [Azure cloud migration best practices checklist](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/azure-best-practices/?azure-portal=true&WT.mc_id=AZ-MVP-5004750)
-- [Cloud Adoption Framework migration model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/migration-considerations/?azure-portal=true&WT.mc_id=AZ-MVP-5004750)
+- [Connect an on-premises network to Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/?WT.mc_id=AZ-MVP-5004750)
+- [Azure networking services overview](https://docs.microsoft.com/azure/networking/fundamentals/networking-overview?WT.mc_id=AZ-MVP-5004750)
+- [Multi-region load balancing with Traffic Manager and Application Gateway](https://docs.microsoft.com/azure/architecture/high-availability/reference-architecture-traffic-manager-application-gateway?WT.mc_id=AZ-MVP-5004750)
+- [Plan virtual networks](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm?WT.mc_id=AZ-MVP-5004750)
+- [Azure Virtual Network concepts and best practices](https://docs.microsoft.com/azure/virtual-network/concepts-and-best-practices?WT.mc_id=AZ-MVP-5004750)
 
-- [Azure Virtual Machine Agent overview](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows?WT.mc_id=AZ-MVP-5004750)
-- [Using Service Map solution in Azure](https://docs.microsoft.com/azure/azure-monitor/vm/service-map?WT.mc_id=AZ-MVP-5004750)
-- [About Azure Migrate](https://docs.microsoft.com/azure/migrate/migrate-services-overview?WT.mc_id=AZ-MVP-5004750)
-- [What is Azure Resource Mover?](https://docs.microsoft.com/azure/resource-mover/overview?WT.mc_id=AZ-MVP-5004750)
-- [Overview of Data Migration Assistant](https://docs.microsoft.com/sql/dma/dma-overview?azure-portal=true&view=sql-server-ver16&WT.mc_id=AZ-MVP-5004750)
+- [Create, change, or delete an Azure public IP address](https://docs.microsoft.com/azure/virtual-network/ip-services/virtual-network-public-ip-address?WT.mc_id=AZ-MVP-5004750)
+- [What is VPN Gateway?](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways?WT.mc_id=AZ-MVP-5004750)
+- [What is Azure ExpressRoute?](https://docs.microsoft.com/azure/expressroute/expressroute-introduction?WT.mc_id=AZ-MVP-5004750)
+- [Connect an on-premises network to Azure using ExpressRoute](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/expressroute-vpn-failover?WT.mc_id=AZ-MVP-5004750)
+- [Hub-spoke network topology with Azure Virtual WAN](https://docs.microsoft.com/azure/architecture/networking/hub-spoke-vwan-architecture?WT.mc_id=AZ-MVP-5004750)
 
-- [Storage Migration Service overview](https://docs.microsoft.com/windows-server/storage/storage-migration-service/overview?WT.mc_id=AZ-MVP-5004750)
-- [What is Azure File Sync?](https://docs.microsoft.com/azure/storage/file-sync/file-sync-introduction?WT.mc_id=AZ-MVP-5004750)
-- [What is Azure Import/Export service?](https://docs.microsoft.com/azure/import-export/storage-import-export-service?WT.mc_id=AZ-MVP-5004750)
-- [What is Azure Data Box?](https://docs.microsoft.com/azure/databox/data-box-overview?WT.mc_id=AZ-MVP-5004750)
+- [Quickstart: Create and configure Azure DDoS Protection Standard](https://docs.microsoft.com/azure/ddos-protection/manage-ddos-protection?WT.mc_id=AZ-MVP-5004750)
+- [What is Azure Private Link?](https://docs.microsoft.com/azure/private-link/private-link-overview?WT.mc_id=AZ-MVP-5004750)
+- [What is Azure Firewall?](https://docs.microsoft.com/azure/firewall/overview?WT.mc_id=AZ-MVP-5004750)
+- [Azure Web Application Firewall on Azure Content Delivery Network from Microsoft](https://docs.microsoft.com/azure/web-application-firewall/cdn/cdn-overview?WT.mc_id=AZ-MVP-5004750)
+- [How network security groups filter network traffic](https://docs.microsoft.com/azure/virtual-network/network-security-group-how-it-works?WT.mc_id=AZ-MVP-5004750)
+
+- [Tutorial: Route network traffic with a route table using the Azure portal](https://docs.microsoft.com/azure/virtual-network/tutorial-create-route-table-portal?WT.mc_id=AZ-MVP-5004750)
+- [Custom routes](https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview?WT.mc_id=AZ-MVP-5004750#custom-routes)
+- [Azure Traffic Manager documentation](https://docs.microsoft.com/azure/traffic-manager/?WT.mc_id=AZ-MVP-5004750)
+- [What is Azure Load Balancer?](https://docs.microsoft.com/azure/load-balancer/load-balancer-overview?WT.mc_id=AZ-MVP-5004750)
+- [What is Azure Application Gateway?](https://docs.microsoft.com/azure/application-gateway/overview?WT.mc_id=AZ-MVP-5004750)
+
+- [Azure Service-level agreements (SLA)](https://azure.microsoft.com/support/legal/sla/?WT.mc_id=AZ-MVP-5004750)
+- [Azure Pricing](https://azure.microsoft.com/pricing/?WT.mc_id=AZ-MVP-5004750)
+- [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits?WT.mc_id=AZ-MVP-5004750)
