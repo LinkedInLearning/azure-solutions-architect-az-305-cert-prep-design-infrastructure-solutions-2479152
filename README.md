@@ -26,6 +26,16 @@ To resolve this issue:
     - Azure CLI
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 
+<br/>
+
+## Table Of Contents
+
+- [Table Of Contents](#table-of-contents)
+- [Chapter 1 - Design a compute solution](https://github.com/LinkedInLearning/azure-solutions-architect-az-305-cert-prep-design-infrastructure-solutions-2479152/tree/01)
+- [Chapter 2 - Design an application architecture](https://github.com/LinkedInLearning/azure-solutions-architect-az-305-cert-prep-design-infrastructure-solutions-2479152/tree/02)
+- [Chapter 3 - Design migrations](https://github.com/LinkedInLearning/azure-solutions-architect-az-305-cert-prep-design-infrastructure-solutions-2479152/tree/03)
+- [Chapter 4 - Design network solutions](https://github.com/LinkedInLearning/azure-solutions-architect-az-305-cert-prep-design-infrastructure-solutions-2479152/tree/04)
+
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
