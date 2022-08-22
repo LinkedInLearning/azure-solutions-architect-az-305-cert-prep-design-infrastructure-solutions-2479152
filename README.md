@@ -30,3 +30,5 @@
 - [Azure Service-level agreements (SLA)](https://azure.microsoft.com/support/legal/sla/?WT.mc_id=AZ-MVP-5004750)
 - [Azure Pricing](https://azure.microsoft.com/pricing/?WT.mc_id=AZ-MVP-5004750)
 - [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits?WT.mc_id=AZ-MVP-5004750)
+
+<a href="https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits?WT.mc_id=AZ-MVP-5004750" target="_blank">Azure subscription TEST</a>
