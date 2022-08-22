@@ -1,5 +1,8 @@
 ## Chapter 1 - Design a compute solution references
 
+### Reference documentation links 
+<br/>
+
 - [Compute decision tree](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree?WT.mc_id=AZ-MVP-5004750)
 - [Select an Azure data store for your application](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-decision-tree?WT.mc_id=AZ-MVP-5004750)
 - [Security considerations for container instances](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-image-security?WT.mc_id=AZ-MVP-5004750)
