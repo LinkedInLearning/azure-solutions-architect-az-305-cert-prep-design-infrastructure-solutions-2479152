@@ -1,34 +1,18 @@
-# Azure Solutions Architect (AZ-305) Cert Prep: Design Infrastructure Solutions
-This is the repository for the LinkedIn Learning course Azure Solutions Architect (AZ-305) Cert Prep: Design Infrastructure Solutions. The full course is available from [LinkedIn Learning][lil-course-url].
+## Chapter 2 - Design an application architecture
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+### Reference documentation links 
+<br/>
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#`. As an example, the branch named `02` corresponds to the second chapter. 
+- [Caching guidance](https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching?WT.mc_id=AZ-MVP-5004750)
+- [Redis Open Source Software](https://redis.io/)
+- [What is Memcached?](https://memcached.org/)
+- [Azure messaging services](https://docs.microsoft.com/azure/event-grid/compare-messaging-services?WT.mc_id=AZ-MVP-5004750)
+- [Azure Service Bus queues, topics, and subscriptions](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-queues-topics-subscriptions?WT.mc_id=AZ-MVP-5004750)
+- [What is Azure Event Grid?](https://docs.microsoft.com/azure/event-grid/overview?WT.mc_id=AZ-MVP-5004750)
+- [What is Infrastructure as Code?](https://docs.microsoft.com/devops/deliver/what-is-infrastructure-as-code?WT.mc_id=AZ-MVP-5004750)
+- [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview?WT.mc_id=AZ-MVP-5004750)
+- [What is Azure Automation?](https://docs.microsoft.com/azure/automation/overview?WT.mc_id=AZ-MVP-5004750)
+- [What is Azure App Configuration?](https://docs.microsoft.com/azure/azure-app-configuration/overview?WT.mc_id=AZ-MVP-5004750)
 
-When switching from one files branch to the next after making changes to the files, you may get a message like this:
-
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
-
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- Azure Subscription
-    - Visual Studio Code or preferred IDE
-    - Azure CLI
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-
-
-[0]: # (Replace these placeholder URLs with actual course URLs)
-
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
-
+- [Azure App Configuration best practices](https://docs.microsoft.com/azure/azure-app-configuration/howto-best-practices?WT.mc_id=AZ-MVP-5004750)
+- [Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-key-concepts?WT.mc_id=AZ-MVP-5004750)
