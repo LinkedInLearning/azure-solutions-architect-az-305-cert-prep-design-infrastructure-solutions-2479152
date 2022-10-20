@@ -1,32 +1,57 @@
-## Chapter 4 - Design network solutions
+# Azure Solutions Architect Expert (AZ-305) Cert Prep: Design Infrastructure Solutions
+This is the repository for the LinkedIn Learning course Azure Solutions Architect Expert (AZ-305) Cert Prep: Design Infrastructure Solutions. The full course is available from [LinkedIn Learning][lil-course-url].
 
-### Reference documentation links
+![Azure Solutions Architect Expert (AZ-305) Cert Prep: Design Infrastructure Solutions][lil-thumbnail-url] 
+
+Are you an experienced IT professional looking to take your career to the next level? You may want to consider getting certified by Azure to boost your design solutions credentials. Passing the Microsoft AZ-305 Designing Microsoft Azure Infrastructure Solutions exam validates you as an Azure Solutions Architect Expert, which could come in handy in your current role or the next time you’re looking for a new job. In this course, instructor Elkhan Yusubov helps you to prepare to tackle the Design Infrastructure Solutions section of the AZ-305 exam. Discover the basics of Azure design solutions to meet the needs of any business-critical situation: designing a compute solution, an application architecture, migration and network solutions, and more. Along the way, test out your new skills for the certification exam in the practice challenges at the end of each section.
+
+## Instructions
+This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+
+## Branches
+The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
+Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+
+When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+
+    error: Your local changes to the following files would be overwritten by checkout:        [files]
+    Please commit your changes or stash them before you switch branches.
+    Aborting
+
+To resolve this issue:
+	
+    Add changes to git using this command: git add .
+	Commit changes using this command: git commit -m "some message"
+
+## Installing
+1. To use these exercise files, you must have the following installed:
+	- Azure Subscription
+    - Visual Studio Code or preferred IDE
+    - Azure CLI
+2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
+
 <br/>
 
-- [Connect an on-premises network to Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/?WT.mc_id=AZ-MVP-5004750)
-- [Azure networking services overview](https://docs.microsoft.com/azure/networking/fundamentals/networking-overview?WT.mc_id=AZ-MVP-5004750)
-- [Multi-region load balancing with Traffic Manager and Application Gateway](https://docs.microsoft.com/azure/architecture/high-availability/reference-architecture-traffic-manager-application-gateway?WT.mc_id=AZ-MVP-5004750)
-- [Plan virtual networks](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm?WT.mc_id=AZ-MVP-5004750)
-- [Azure Virtual Network concepts and best practices](https://docs.microsoft.com/azure/virtual-network/concepts-and-best-practices?WT.mc_id=AZ-MVP-5004750)
+## Table Of Contents
 
-- [Create, change, or delete an Azure public IP address](https://docs.microsoft.com/azure/virtual-network/ip-services/virtual-network-public-ip-address?WT.mc_id=AZ-MVP-5004750)
-- [What is VPN Gateway?](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways?WT.mc_id=AZ-MVP-5004750)
-- [What is Azure ExpressRoute?](https://docs.microsoft.com/azure/expressroute/expressroute-introduction?WT.mc_id=AZ-MVP-5004750)
-- [Connect an on-premises network to Azure using ExpressRoute](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/expressroute-vpn-failover?WT.mc_id=AZ-MVP-5004750)
-- [Hub-spoke network topology with Azure Virtual WAN](https://docs.microsoft.com/azure/architecture/networking/hub-spoke-vwan-architecture?WT.mc_id=AZ-MVP-5004750)
+- [Table Of Contents](#table-of-contents)
+- [Chapter 1 - Design a compute solution](https://github.com/LinkedInLearning/azure-solutions-architect-az-305-cert-prep-design-infrastructure-solutions-2479152/tree/01)
+- [Chapter 2 - Design an application architecture](https://github.com/LinkedInLearning/azure-solutions-architect-az-305-cert-prep-design-infrastructure-solutions-2479152/tree/02)
+- [Chapter 3 - Design migrations](https://github.com/LinkedInLearning/azure-solutions-architect-az-305-cert-prep-design-infrastructure-solutions-2479152/tree/03)
+- [Chapter 4 - Design network solutions](https://github.com/LinkedInLearning/azure-solutions-architect-az-305-cert-prep-design-infrastructure-solutions-2479152/tree/04)
 
-- [Quickstart: Create and configure Azure DDoS Protection Standard](https://docs.microsoft.com/azure/ddos-protection/manage-ddos-protection?WT.mc_id=AZ-MVP-5004750)
-- [What is Azure Private Link?](https://docs.microsoft.com/azure/private-link/private-link-overview?WT.mc_id=AZ-MVP-5004750)
-- [What is Azure Firewall?](https://docs.microsoft.com/azure/firewall/overview?WT.mc_id=AZ-MVP-5004750)
-- [Azure Web Application Firewall on Azure Content Delivery Network from Microsoft](https://docs.microsoft.com/azure/web-application-firewall/cdn/cdn-overview?WT.mc_id=AZ-MVP-5004750)
-- [How network security groups filter network traffic](https://docs.microsoft.com/azure/virtual-network/network-security-group-how-it-works?WT.mc_id=AZ-MVP-5004750)
 
-- [Tutorial: Route network traffic with a route table using the Azure portal](https://docs.microsoft.com/azure/virtual-network/tutorial-create-route-table-portal?WT.mc_id=AZ-MVP-5004750)
-- [Custom routes](https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview?WT.mc_id=AZ-MVP-5004750#custom-routes)
-- [Azure Traffic Manager documentation](https://docs.microsoft.com/azure/traffic-manager/?WT.mc_id=AZ-MVP-5004750)
-- [What is Azure Load Balancer?](https://docs.microsoft.com/azure/load-balancer/load-balancer-overview?WT.mc_id=AZ-MVP-5004750)
-- [What is Azure Application Gateway?](https://docs.microsoft.com/azure/application-gateway/overview?WT.mc_id=AZ-MVP-5004750)
 
-- [Azure Service-level agreements (SLA)](https://azure.microsoft.com/support/legal/sla/?WT.mc_id=AZ-MVP-5004750)
-- [Azure Pricing](https://azure.microsoft.com/pricing/?WT.mc_id=AZ-MVP-5004750)
-- [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits?WT.mc_id=AZ-MVP-5004750)
+### Instructor
+
+Elkhan Yusubov 
+                            
+
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/elkhan-yusubov).
+
+[lil-course-url]: https://www.linkedin.com/learning/azure-solutions-architect-expert-az-305-cert-prep-design-infrastructure-solutions?dApp=59033956
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2479152/2479152-1666027073952-16x9.jpg
+
